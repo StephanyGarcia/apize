@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    background-image: linear-gradient(to top left, #e7344c, #c2197e, #e7344c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Light.ttf");
+}
+.logo {
+    padding: 0 5px;
+}
+.texto-topo {
+    padding: 0 10px;
+}
+.celular {
+    padding: 0 5px;
+}
+.container-navegacao {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.navegacao {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.info-topo {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.titulo {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 14px;
+    width: 425px;
+}
+
+.botao {
+    border: solid 1px white;
+    border-radius: 10px;
+    height: 40px;
+    width: 159px;
+    background-color: transparent;
+    font-family: "poppins", sans-serif;
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.meio-tudao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 60px 0 0;
+}
+
+.underline {
+    width: 100px;
+    border: 1px solid #e7344c;
+}
+
+.works {
+    color: #4d4f51;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.text-works {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    margin: 15px;
+    text-align: center;
+}
+
+.info-meio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.tipo-servicos {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4d4f51;
+    padding-left: 20px;
+}
+
+.titulo-serv {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    color: #4d4f51;
+}
+
+.text-serv {
+    font-size: 15px;
+    text-align: center;
+}
+
+.info-meio2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.bussines {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.celular2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #4d4f51;
+}
+.texto-meio {
+    width: 100%;
+    padding: 0 10px;
+}
+.text-bussines {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #4d4f51;
+}
+
+.botao-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.botaoapp {
+    border: solid 1px #4d4f51;
+    border-radius: 10px;
+    width: 100%;
+    height: 55px;
+    max-width: 235px;
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    color: #4d4f51;
+    box-shadow: #4d4f51 3px 3px 3px 1px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulo3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meet{
+    color: rgb(56, 49, 49);
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+}
+.underline2 {
+    width: 100px;
+    border: 1px solid #e7344c;
+    margin: 10px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.time1{
+    padding: 0 5px;
+    margin: 20px 0;
+}
+.imgtime {
+    border-radius: 10px 10px 0 0;
+}
+
+.time {
+    display: flex;
+    width: 100%;
+    padding: 60px 0;
+    justify-content: center;
+}
+.funcionario {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nome {
+    background-image: linear-gradient(to top left, #e7344c, #c2197e, #e7344c);
+    border-radius: 0 0 10px 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin-top: -5px;
+}
+
+.rodape {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.text-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    background-image: linear-gradient(to top left, #e7344c, #c2197e, #e7344c);
+    padding: 20px;
+    width: 100%;
+}
+
+.sub {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.underline3 {
+    width: 100px;        
+    border: 1px solid white;
+}
+@media (max-width:900px){
+    .celular2, .celular{
+        display: none;
+    }
+    .info-topo{
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        margin:0;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subtitulo2 {
+        text-align: center;
+    }
+    .navegacao a {
+        padding: 10px;
+    }
+    .botao-apps {
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-bussines{
+        text-align: center;
+    }
+}
+@media (max-width:760px){
+    .container-navegacao {
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
+    .logo {
+        padding: 0 5px;
+        margin-bottom: 6px;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tipo-servicos {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 425px;
+        padding: 0;
+    }
+}
+@media(max-width:676px){
+    .navegacao {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .works{
+        font-size: 35px;
+    }
+}
+@media(max-width:462px){    
+    .info-topo {
+        max-width: 290px;       
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo {
+        font-size: 32px;
+    }
+    .text {
+        width: 280px;
+        margin: 15px 0;
+    }
+    .botao-apps {
+        flex-direction: column;        
+        width: 100%;
+    }
+    .botaoapp{
+        max-width: 100%;
+    }
+}
+@media(max-width:436px){
+    .tipo-servicos {
+        max-width: 275px;
+    }
+}
